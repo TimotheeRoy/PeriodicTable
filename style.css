@@ -1,0 +1,146 @@
+body{    
+    height: 82.8vh;
+    width: 75vw;
+    margin: 10rem 0 0 25rem ;
+    background-image: url('https://www.rts.ch/2020/08/12/14/53/10925564.image?w=1920&h=598');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.table-container {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-gap: 10px;
+}
+
+
+.element{
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.element-info{
+    display: none;
+    border: 1px solid black;
+    z-index: 1;
+    background-color:  white;
+    grid-area: 7/1/7/1;
+}
+
+
+
+.non-metaux{
+    background-color: #a0ffa0;
+}
+
+.Alcalin{
+    background-color:  #ff6666;
+}
+
+.alcalino-terreux{
+    background-color: #ffc0c0;
+}
+
+.actinide{
+    background-color: #ff99cc;
+}
+
+.lanthanide{
+    background-color: #ffbbff;
+}
+
+.metal-transi{
+    background-color: #ffc0c0;
+}
+
+.metal-pauvre{
+    background-color: #cccccc;
+}
+
+.metalloide{
+    background-color: #cccc99;
+}
+
+.halogène{
+    background-color: #ffff99;
+}
+
+.gaz-noble{
+    background-color: #c0e8ff;
+}
+
+.non-classe{
+    background-color: #f7f8ff;
+}
+
+/* ligne 1 */
+.h { grid-area: 1 / 1 / 1 / 1; }
+.voidL1{grid-area: 1/2/1/17;}
+.he { grid-area: 1 / 18 / 1 / 18; }
+
+/* ligne 2 */
+.li { grid-area: 2 / 1 / 2 / 1; }
+.be { grid-area: 2 / 2 / 2 / 2; }
+.voidL2{grid-area: 2/3/2/12;}
+.b { grid-area: 2 / 3 / 2 / 3; }
+.c { grid-area: 2 / 4 / 2 / 4; }
+.n { grid-area: 2 / 5 / 2 / 5; }
+.o { grid-area: 2 / 6 / 2 / 6; }
+.f { grid-area: 2 / 7 / 2 / 7; }
+.ne { grid-area: 2 / 8 / 2 / 8; }
+
+/* ligne 3 */
+.na { grid-area: 3 / 1 / 3 / 1; }
+.mg { grid-area: 3 / 2 / 3 / 2; }
+.voidL3{grid-area: 3/3/3/12;}
+.al { grid-area: 3 / 3 / 3 / 3; }
+.si { grid-area: 3 / 4 / 3 / 4; }
+.p { grid-area: 3 / 5 / 3 / 5; }
+.s { grid-area: 3 / 6 / 3 / 6; }
+.cl { grid-area: 3 / 7 / 3 / 7; }
+.ar { grid-area: 3 / 8 / 3 / 8; }
+
+/* ligne 4 */
+.k { grid-area: 4 / 1 / 4 / 1; }
+.ca { grid-area: 4 / 2 / 4 / 2; }
+.sc { grid-area: 4 / 3 / 4 / 3; }
+.ti { grid-area: 4 / 4 / 4 / 4; }
+.v { grid-area: 4 / 5 / 4 / 5; }
+.cr { grid-area: 4 / 6 / 4 / 6; }
+.mn { grid-area: 4 / 7 / 4 / 7; }
+.fe { grid-area: 4 / 8 / 4 / 8; }
+
+/* ligne 5 */
+.co { grid-area: 5 / 1 / 5 / 1; }
+.ni { grid-area: 5 / 2 / 5 / 2; }
+.cu { grid-area: 5 / 3 / 5 / 3; }
+.zn { grid-area: 5 / 4 / 5 / 4; }
+.ga { grid-area: 5 / 5 / 5 / 5; }
+.ge { grid-area: 5 / 6 / 5 / 6; }
+.as { grid-area: 5 / 7 / 5 / 7; }
+.se { grid-area: 5 / 8 / 5 / 8; }
+
+/* ligne 6 */
+.br { grid-area: 6 / 1 / 6 / 1; }
+.kr { grid-area: 6 / 2 / 6 / 2; }
+.rb { grid-area: 6 / 3 / 6 / 3; }
+.sr { grid-area: 6 / 4 / 6 / 4; }
+.y { grid-area: 6 / 5 / 6 / 5; }
+.zr { grid-area: 6 / 6 / 6 / 6; }
+.nb { grid-area: 6 / 7 / 6 / 7; }
+.mo { grid-area: 6 / 8 / 6 / 8; }
+
+/* ligne 7 */
+.tc { grid-area: 7 / 1 / 7 / 1; }
+.ru { grid-area: 7 / 2 / 7 / 2; }
+.rh { grid-area: 7 / 3 / 7 / 3; }
+.pd { grid-area: 7 / 4 / 7 / 4; }
+.ag { grid-area: 7 / 5 / 7 / 5; }
+.cd { grid-area: 7 / 6 / 7 / 6; }
+.in { grid-area: 7 / 7 / 7 / 7; }
+.sn { grid-area: 7 / 8 / 7 / 8; }
